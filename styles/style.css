@@ -108,11 +108,28 @@ textarea::placeholder {
 .encriptar {
   color: #fff;
   background-color: #0a3871;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .desencriptar {
   color: #0a3871;
   background-color: #d8dfe8;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.encriptar:hover {
+  transform: scale(1.05);
+}
+.desencriptar:hover{
+  transform: scale(1.05);
+}
+
+.copiar{
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.copiar:hover {
+  transform: scale(1.05);
+}
+
 aside {
   box-sizing: border-box;
   background-color: #fff;
@@ -223,7 +240,7 @@ footer {
   box-sizing: border-box;
   background-color: #0a3871;
   height: 64px;
-  padding: 30px  max(40px, 5vw) ;
+  padding: 30px max(40px, 5vw);
   width: 100%;
   display: flex;
   justify-content: center;
