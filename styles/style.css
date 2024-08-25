@@ -6,6 +6,7 @@
 html,
 body {
   overflow: auto;
+  padding-bottom: 0px;
 }
 
 main {
@@ -222,6 +223,7 @@ footer {
   box-sizing: border-box;
   background-color: #0a3871;
   height: 64px;
+  padding: 30px  max(40px, 5vw) ;
   width: 100%;
   display: flex;
   justify-content: center;
