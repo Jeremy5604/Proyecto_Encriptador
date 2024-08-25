@@ -119,11 +119,11 @@ textarea::placeholder {
 .encriptar:hover {
   transform: scale(1.05);
 }
-.desencriptar:hover{
+.desencriptar:hover {
   transform: scale(1.05);
 }
 
-.copiar{
+.copiar {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .copiar:hover {
@@ -250,6 +250,17 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  gap: 20px;
+}
+.contacto {
+    display: flex;
+    gap: 20px;
+  padding: 10px;
+}
+
+.github,.instagram,.tiktok {
+    height: 32px;
+  filter: grayscale(100%);
 }
 
 /* Responsive */
