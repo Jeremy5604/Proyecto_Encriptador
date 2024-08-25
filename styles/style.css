@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  overflow: auto;
+}
+
 main {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   padding: 40px 40px 40px 60px;
   width: 100vw;
-  height: 100vh;
+  height: 98vh;
   background-color: #f3f5fc;
 }
 section {
@@ -55,7 +61,6 @@ textarea {
 textarea::placeholder {
   color: #0a3871;
 }
-
 
 .controlesContenedor {
   display: flex;
@@ -213,7 +218,7 @@ aside {
   color: #495057;
 }
 
-footer{
+footer {
   box-sizing: border-box;
   background-color: #0a3871;
   height: 64px;
