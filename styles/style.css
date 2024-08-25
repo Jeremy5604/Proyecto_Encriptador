@@ -131,6 +131,7 @@ aside {
   flex-direction: column;
   gap: 32px;
   text-align: center;
+  width: 90%;
 }
 .contenedorOculto {
   display: none;
