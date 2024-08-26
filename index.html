@@ -8,26 +8,20 @@
   </head>
   <body>
     <video class="background-video" autoplay muted loop>
-        <source src="assets/background.mp4" type="video/mp4">
-        Tu navegador no soporta la etiqueta de video.
-    </video>
+        <source src="assets/background.mp4" type="video/mp4"></video>
     <main>
       <section>
         <div class="logoContenedor">
-          <!--contenedor1-->
           <img src="./assets/Logo.png" alt="Alura-Logo" />
         </div>
         <div class="textoContenedor">
-          <!--contenedor2-->
           <textarea
             id="textoAingresar"
             placeholder="Ingrese el texto aquí"
           ></textarea>
         </div>
         <div class="controlesContenedor">
-          <!--contenedor3"-->
           <div class="indicadorContenedor">
-            <!--subcontenedor1-->
             <img
               src="./assets/bi_exclamation-circle-fill.png"
               alt="advertencia"
@@ -35,7 +29,6 @@
             <p>Solo letras minúsculas y sin acento</p>
           </div>
           <div class="botonesContenedor">
-            <!--subcontenedor2-->
             <button onclick="encriptar();" class="encriptar">Encriptar</button>
             <button onclick="desencriptar();" class="desencriptar">
               Desencriptar
@@ -45,27 +38,20 @@
       </section>
       <aside>
         <div class="contenedorExterior">
-          <!--contenedor4-->
           <div class="panelSalida">
-            <!--contenedor5-->
             <div class="contenedorOculto">
-              <!---->
               <div class="subcontenedorOculto">
                 <div class="textoSalida">
-                  <!--subcontenedorOculto1-->
                   <textarea id="mostrarResultado"></textarea>
                 </div>
                 <button class="copiar" onclick="copiarTexto();">Copiar</button>
               </div>
             </div>
             <div class="contenedorAOcultar">
-              <!--contenedorAocultar-->
               <div class="muñecoContenedor">
-                <!--subcontenedor3-->
                 <img src="./assets/Muñeco.png" alt="search" />
               </div>
               <div class="mensajeContenedor">
-                <!--subcontenedor4-->
                 <h3>Ningún mensaje fue encontrado</h3>
                 <h6>Ingresa el texto que desees encriptar o desencriptar</h6>
               </div>
