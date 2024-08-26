@@ -1,6 +1,6 @@
 :root {
   --primary-color: #3498db;
-  --secondary-color: #2ecc71;
+  --secondary-color: #000000;
 }
 * {
   margin: 0;
@@ -112,7 +112,7 @@ textarea::placeholder {
 .botonesContenedor button {
   padding: 24px;
   border-radius: 24px;
-  border: 1px solid #000;
+  border: 1px solid var(--secondary-color);
   box-shadow: 0 4px 4px 0 rgb(0 0 0 /25%);
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -187,7 +187,7 @@ aside {
   font-size: 24px;
   line-height: 36px;
   height: 100%;
-  color: #495057;
+  color: #000;
   background: transparent;
   resize: none;
   border: none;
